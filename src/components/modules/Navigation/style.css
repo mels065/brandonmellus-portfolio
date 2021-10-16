@@ -4,6 +4,8 @@
 }
 
 .navbar-hamburger {
+    display: flex;
+    justify-content: flex-end;
     order: -1;
 }
 

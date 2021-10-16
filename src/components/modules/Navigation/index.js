@@ -19,7 +19,7 @@ function Navigation() {
 
     useEffect(() => {
         function handleResize() {
-            if (window.innerWidth <= 480) {
+            if (window.innerWidth <= 560) {
                 setIsMobileScreen(true);
             } else {
                 setIsMobileScreen(false);
