@@ -3,12 +3,16 @@ import { Link } from '@mui/material';
 
 import './style.css';
 
-function NavLink({ href, children }) {
+function NavLink({ children }) {
+    const linkStyle = {
+        fontSize: "1.5rem"
+    }
     return (
         <Link
             color="inherit"
             underline="hover"
-            href={href ? href : `/${children.toLowerCase()}`}
+            href={`/${children.toLowerCase().split(' ').join('-')}`}
+            style={linkStyle}
         >
             {children}
         </Link>

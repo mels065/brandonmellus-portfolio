@@ -42,7 +42,7 @@ function Navigation() {
                     style={!isMobileScreen ? navBarStyle : null}
                 >
                     <ListItem>
-                        <NavLink href="/">About Me</NavLink>
+                        <NavLink>About Me</NavLink>
                     </ListItem>
                     <ListItem>
                         <NavLink>Portfolio</NavLink>
