@@ -1,0 +1,29 @@
+#Header {
+    background-color: var(--theme-color);
+    color: var(--white);
+    padding: 10px;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero {
+    align-items: center;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}

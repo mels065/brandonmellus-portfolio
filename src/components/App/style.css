@@ -1,0 +1,11 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald&display=swap";
+
+:root {
+  --white: #eee;
+  --theme-color: #397eed;
+  --font: 'Oswald', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+}
