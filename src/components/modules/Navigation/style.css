@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-hamburger {
+    order: -1;
+}
+
+.hidden {
+    display: none;
+}
