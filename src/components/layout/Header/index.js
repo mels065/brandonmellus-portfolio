@@ -1,5 +1,4 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
 import { Grid, Link } from '@mui/material';
 
 import Navigation from '../../modules/Navigation';
@@ -19,14 +18,6 @@ function Header() {
                     <Navigation />
                 </Grid>
             </Grid>
-            <Route exact path="/">
-                <div className="hero">
-                    <div className="hero-content">
-                        <h1>Brandon Mellus</h1>
-                        <p>Web Development Solutions</p>
-                    </div>
-                </div>
-            </Route>
         </header>
     );
 }
