@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 
 import Home from '../../pages/Home';
 import AboutMe from '../../pages/AboutMe';
+import Portfolio from '../../pages/Porfolio';
 
 // import './style.css';
 
@@ -14,6 +15,9 @@ function Content() {
             </Route>
             <Route exact path='/about-me'>
                 <AboutMe />
+            </Route>
+            <Route exact path="/portfolio">
+                <Portfolio />
             </Route>
         </main>
     )

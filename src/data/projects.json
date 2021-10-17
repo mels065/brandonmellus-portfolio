@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Move Towards the Movies",
+        "repo": "https://www.github.com/move-towards-the-movies",
+        "demo": "https://mels065.github.io/move-towards-the-movies/",
+        "screenshot": "move-towards-the-movies.png"
+    },
+    {
+        "title": "Weather Dashboard",
+        "repo": "https://www.github.com/weather-dashboard",
+        "demo": "https://mels065.github.io/weather-dashboard",
+        "screenshot": "weather-dashboard.png"
+    },
+    {
+        "title": "JavaScript Quiz",
+        "repo": "https://www.github.com/javascript-quiz",
+        "demo": "https://mels065.github.io/javascript-quiz",
+        "screenshot": "javascript-quiz.png"
+    },
+    {
+        "title": "Tech Blog",
+        "repo": "https://www.github.com/tech-blog",
+        "demo": "https://salty-ridge-62476.herokuapp.com/",
+        "screenshot": "tech-blog.png"
+    },
+    {
+        "title": "Golden Flight",
+        "repo": "https://github.com/mels065/golden-flight",
+        "demo": "https://powerful-eyrie-53621.herokuapp.com/",
+        "screenshot": "golden-flight.png"
+    },
+
+    {
+        "title": "Budget Tracker",
+        "repo": "https://www.github.com/budget-tracker-pwa",
+        "demo": "https://evening-atoll-34211.herokuapp.com/",
+        "screenshot": "budget-tracker.png"
+    }
+]
