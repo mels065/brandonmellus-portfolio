@@ -1,0 +1,27 @@
+.about-me-content {
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.about-me-content * {
+    margin: 10px;
+}
+
+.about-me-image {
+    width: 25%;
+}
+
+.about-me-content {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .about-me-content {
+        display: block;
+    }
+
+    .about-me-image {
+        width: 100%;
+    }
+}
