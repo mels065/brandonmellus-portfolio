@@ -5,6 +5,7 @@ import Home from '../../pages/Home';
 import AboutMe from '../../pages/AboutMe';
 import Portfolio from '../../pages/Porfolio';
 import Contact from '../../pages/Contact';
+import Resume from '../../pages/Resume';
 
 // import './style.css';
 
@@ -22,6 +23,9 @@ function Content() {
             </Route>
             <Route exact path="/contact">
                 <Contact />
+            </Route>
+            <Route exact path="/resume">
+                <Resume />
             </Route>
         </main>
     )
