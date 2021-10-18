@@ -6,6 +6,7 @@ import './style.css';
 
 import Header from '../layout/Header';
 import Content from '../layout/Content';
+import Footer from '../layout/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Router>
         <Header />
         <Content />
+        <Footer />
       </Router>
     </div>
   );

@@ -1,0 +1,5 @@
+#Footer {
+    background-color: var(--theme-color);
+    color: var(--white);
+    padding: 20px;
+}
