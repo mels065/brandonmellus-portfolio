@@ -13,6 +13,12 @@
 
 A portfolio used with React.
 
+![image](https://user-images.githubusercontent.com/6201053/137664527-82be0dc0-75c8-4c8e-aba0-1c4089b9b7a8.png)
+
+![image](https://user-images.githubusercontent.com/6201053/137664545-bb8d4e82-0174-4448-80db-bbe1627e2c81.png)
+
+![image](https://user-images.githubusercontent.com/6201053/137664832-d4535db8-de6d-4ce6-b6f2-27f0b8c6430c.png)
+
 ## Installation
 
 TBA
