@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Button } from '@mui/material';
 
 import Home from '../../pages/Home';
 import AboutMe from '../../pages/AboutMe';
@@ -9,24 +9,30 @@ import Resume from '../../pages/Resume';
 
 // import './style.css';
 
-function Content() {
+function Content({ currentPage }) {
     return (
         <main>
-            <Route exact path='/'>
-                <Home />
-            </Route>
-            <Route exact path='/about-me'>
-                <AboutMe />
-            </Route>
-            <Route exact path="/portfolio">
-                <Portfolio />
-            </Route>
-            <Route exact path="/contact">
-                <Contact />
-            </Route>
-            <Route exact path="/resume">
-                <Resume />
-            </Route>
+            {
+                (() => {
+                    switch (currentPage) {
+                        case 'Home': {
+                            return <Home />
+                        }
+                        case 'About Me': {
+                            return <AboutMe />
+                        }
+                        case 'Portfolio': {
+                            return <Portfolio />
+                        }
+                        case 'Contact': {
+                            return <Contact />
+                        }
+                        case 'Resume': {
+                            return <Resume />
+                        }
+                    }
+                })()
+            }
         </main>
     )
 }

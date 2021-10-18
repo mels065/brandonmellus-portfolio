@@ -13,7 +13,7 @@ const navBarStyle = {
     justifyContent: "flex-end"
 }
 
-function Navigation() {
+function Navigation({ setCurrentPage }) {
     const [isMobileScreen, setIsMobileScreen] = useState(false);
     const [menuExtended, setMenuExtended] = useState(false);
 
@@ -35,6 +35,10 @@ function Navigation() {
         setMenuExtended(!menuExtended);
     }
 
+    function linkClickHandler(event) {
+        setCurrentPage(event.target.dataset.page);
+    }
+
     return (
         <nav className="navbar">
             <div className={`nav-menu${isMobileScreen && !menuExtended ? ' hidden' : ''}${menuExtended ? ' extended' : ''}`}>
@@ -42,16 +46,16 @@ function Navigation() {
                     style={!isMobileScreen ? navBarStyle : null}
                 >
                     <ListItem>
-                        <NavLink>About Me</NavLink>
+                        <Button color="inherit" onClick={linkClickHandler} data-page="About Me">About Me</Button>
                     </ListItem>
                     <ListItem>
-                        <NavLink>Portfolio</NavLink>
+                        <Button color="inherit" onClick={linkClickHandler} data-page="Portfolio">Portfolio</Button>
                     </ListItem>
                     <ListItem>
-                        <NavLink>Contact</NavLink>
+                        <Button color="inherit" onClick={linkClickHandler} data-page="Contact">Contact</Button>
                     </ListItem>
                     <ListItem>
-                        <NavLink>Resume</NavLink>
+                        <Button color="inherit" onClick={linkClickHandler} data-page="Resume">Resume</Button>
                     </ListItem>
                 </List>
             </div>

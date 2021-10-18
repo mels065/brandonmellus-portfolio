@@ -1,21 +1,31 @@
 import React from 'react';
-import { Grid, Link } from '@mui/material';
+import { Button, Grid } from '@mui/material';
 
 import Navigation from '../../modules/Navigation';
 
-import './style.css'
+import './style.css';
 
-function Header() {
+const logoButtonStyle = {
+    fontSize: "3rem",
+    fontWeight: "bold",
+    width: "60px"
+}
+
+function Header({ setCurrentPage }) {
+    function linkClickHandler(event) {
+        setCurrentPage(event.target.dataset.page);
+    }
+
     return (
         <header id="Header">
             <Grid container>
                 <Grid item xs={7}>
                     <div className="logo">
-                        <Link href="/" underline="none" color="inherit">BM</Link>
+                        <Button color="inherit" style={logoButtonStyle} onClick={linkClickHandler} data-page="Home">BM</Button>
                     </div>
                 </Grid>
                 <Grid item xs={5}>
-                    <Navigation />
+                    <Navigation setCurrentPage={setCurrentPage} />
                 </Grid>
             </Grid>
         </header>

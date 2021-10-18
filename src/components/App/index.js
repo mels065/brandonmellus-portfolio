@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom'
+import React, { useState } from 'react';
 
 import './normalize.css'
 import './style.css';
@@ -9,13 +8,13 @@ import Content from '../layout/Content';
 import Footer from '../layout/Footer';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('Home');
+
   return (
     <div className="App">
-      <Router>
-        <Header />
-        <Content />
-        <Footer />
-      </Router>
+      <Header setCurrentPage={setCurrentPage} />
+      <Content currentPage={currentPage} />
+      <Footer />
     </div>
   );
 }
