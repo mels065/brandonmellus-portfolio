@@ -35,6 +35,7 @@ function Portfolio() {
 
     return (
         <div className="portfolio-page">
+            <h2>Portfolio</h2>
             <List className="project-list" style={style.projectList}>
                 {
                     projectData.map((project, i) => {
