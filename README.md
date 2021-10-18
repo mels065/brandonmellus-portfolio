@@ -17,7 +17,7 @@ A portfolio used with React.
 
 ![image](https://user-images.githubusercontent.com/6201053/137664545-bb8d4e82-0174-4448-80db-bbe1627e2c81.png)
 
-![image](https://user-images.githubusercontent.com/6201053/137664575-309f0cd4-8b1e-442c-a32c-c4bc4d3a3f91.png)
+![image](https://user-images.githubusercontent.com/6201053/137664700-54598f67-5a3e-4481-b65c-7f92f66f48df.png)
 
 ## Installation
 
